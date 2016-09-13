@@ -7,7 +7,6 @@
         vm.commonService = commonService;
         vm.setProduct    = function(product){
         	commonService.current = product;
-        	commonService.current.selected = true;
         	_.each(commonService.model, function(item){ 
         		item.selected = (product.id !== item.id) ? false : true;
         	});
