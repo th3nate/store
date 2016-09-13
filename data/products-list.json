@@ -1,0 +1,30 @@
+[
+    {   
+        "id": 1,
+        "selected": true,
+        "name": "Product 1",
+        "description": "Some text about product 1",
+        "price": "$120"
+    },
+    {
+        "id": 2,
+        "selected": false,
+        "name": "Product 2",
+        "description": "Some text about product 2",
+        "price": "$115"
+    },
+    {
+        "id": 3,
+        "selected": false,
+        "name": "Product 3",
+        "description": "Some text about product 3",
+        "price": "$60"
+    },
+    {
+        "id": 4,
+        "selected": false,
+        "name": "Product 4",
+        "description": "Some text about product 4",
+        "price": "$89"
+    }
+]

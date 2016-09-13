@@ -1,0 +1,9 @@
+.idea/
+node_modules/
+bower_components/
+temp/
+dist/
+AngularJS.v12.suo
+*.v12.suo
+*.suo
+*.map

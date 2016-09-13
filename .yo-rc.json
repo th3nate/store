@@ -1,0 +1,34 @@
+{
+  "generator-ng-appgen": {
+    "uirouter": true,
+    "templateDirectory": "templates/",
+    "directiveDirectory": "directives/",
+    "filterDirectory": "filters/",
+    "serviceDirectory": "services/",
+    "controllerDirectory": "controllers/",
+    "modalDirectory": "modals/",
+    "inject": {
+      "js": {
+        "file": "app/index.html",
+        "marker": "<!-- Add New Component JS Above -->",
+        "template": "<script src=\"<%= filename %>\"></script>"
+      },
+      "less": {
+        "relativeToModule": true,
+        "file": "<%= module %>.less",
+        "marker": "/* Add Component LESS Above */",
+        "template": "@import \"<%= filename %>\";"
+      }
+    },
+    "modules": [
+      {
+        "name": "products",
+        "file": "app\\products\\products.js"
+      },
+      {
+        "name": "common",
+        "file": "app\\common\\common.js"
+      }
+    ]
+  }
+}

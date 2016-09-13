@@ -1,0 +1,13 @@
+<div class="list-group no-margin">
+    <a 
+        href="javascript:void(0)" 
+        class="list-group-item clearfix" 
+        data-ng-class="{ 'active': product.selected }" 
+        data-ng-repeat="product in vm.commonService.model" 
+        data-ng-click="vm.setProduct(product)">
+        <img class="img-thumbnail img-rounded pull-left margin-right" src="http://placehold.it/140x100">
+        <h4 class="list-group-item-heading">{{product.name}}</h4>
+        <p class="list-group-item-text clearfix">{{product.description}} - {{product.price}}</p>
+        <button type="button" class="btn btn-danger pull-right margin-top-btn">Delete</button>
+    </a>
+</div>
