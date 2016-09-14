@@ -9,6 +9,8 @@
     </head>
     <body>
 
+        <!-- Scripts for development only (stripped during dist build) -->
+        <script src="//localhost:35729/livereload.js" data-concat="false"></script>
         <!-- JS from Bower Components -->
         <script src="../bower_components/less.js/dist/less-1.6.2.js" data-concat="false"></script>
         <script src="../bower_components/angular/angular.js"></script>
@@ -32,11 +34,8 @@
 
             <div class="navbar navbar-default navbar-static-top">
                 <div class="navbar-header">
-                    <a class="navbar-brand" id="logo" href="./#/products"><i class="fa fa-bolt"></i> My Store </a>
+                    <a class="navbar-brand" id="logo" href="/app"><i class="fa fa-bolt"></i> My Store </a>
                 </div>
-                <ul class="nav navbar-nav">
-                    <li><a href="./#/products" id="products">Products</a></li>
-                </ul>
             </div>
 
             <div id="content" data-ui-view>
